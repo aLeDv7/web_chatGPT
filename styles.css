@@ -1,0 +1,193 @@
+/* Estilos generales */
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0cbfc; /* Gris claro */
+    background-image: "imagen/captain.jpg";
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: rgb(131, 96, 8); /* Azul marino */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+
+  header img{
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* Sección de Bienvenida */
+  #bienvenida {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Beneficios de Unirse */
+  #beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  #beneficios ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #beneficios li {
+    margin-bottom: 10px;
+  }
+  
+  /* Sección de Registro */
+  #registro {
+    text-align: center;
+    padding: 40px 0;
+    background-color: aliceblue;
+  }
+  
+  #registro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #registro label,
+  #registro input {
+    margin-bottom: 10px;
+  }
+  
+  #registro button {
+    padding: 10px 20px;
+    background-color: #2ecc71; /* Verde */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #registro button:hover {
+    background-color: #27ae60; /* Verde más oscuro al pasar el ratón */
+  }
+  
+  /* Destacado de Destinos Populares */
+  #destinos-populares {
+    text-align: center;
+    padding: 40px 0px 0px;
+    /* background-color: red; */
+  }
+  
+  /* Tarjetas */
+
+  .card-container{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+
+  
+.card{
+    width: 325px;
+    background-color: rgba(131, 115, 115, 0.322);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(131, 96, 8);
+}
+
+.card-content p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .btn{
+    background-color: rgb(131, 96, 8);
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 7px;
+    margin-top: 16px;
+    color: white;
+}
+
+
+
+  /* Testimonios de Miembros */
+  #testimonios {
+    padding: 40px 0;
+  }
+  
+  /* Nuestro Compromiso con la Comunidad */
+  #compromiso {
+    background-color: #dfe6e9; /* Gris claro */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Pie de Página */
+  footer {
+    background-color: rgb(131, 96, 8); /* Azul marino */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
